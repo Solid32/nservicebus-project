@@ -1,0 +1,37 @@
+Content,ID
+1,Bulbasaur,Grass,Poison,"['Chlorophyll';'Overgrow']",45,49,49,65,65,45,1.0,1.0,2.0,0.5,0.5,0.25,2.0,0.5,1.0,1.0,2.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.5,0.7,6.9,14.1,ad090c8b-da3b-4fab-a367-b12200ea6677
+2,Ivysaur,Grass,Poison,"['Chlorophyll';'Overgrow']",60,62,63,80,80,60,1.0,1.0,2.0,0.5,0.5,0.25,2.0,0.5,1.0,1.0,2.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.5,1.0,13.0,13.0,fff936ad-9eb3-462e-86f7-b12200ea6698
+3,Venusaur,Grass,Poison,"['Chlorophyll';'Overgrow']",80,82,83,100,100,80,1.0,1.0,2.0,0.5,0.5,0.25,2.0,0.5,1.0,1.0,2.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.5,2.0,100.0,25.0,49f0b52c-81a4-4f75-be9f-b12200ea6698
+3,Mega Venusaur,Grass,Poison,['Thick Fat'],80,100,123,122,120,80,6.0,1.0,2.0,0.5,0.5,0.25,2.0,0.5,1.0,1.0,2.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.5,2.4,155.5,27.0,d570d841-b3b1-4ed0-bb17-b12200ea6699
+4,Charmander,Fire,,"['Blaze';'Solar Power']",39,52,43,60,50,65,1.0,1.0,0.5,2.0,1.0,0.5,0.5,1.0,1.0,2.0,1.0,1.0,0.5,2.0,1.0,1.0,1.0,0.5,0.5,0.6,8.5,23.6,dfda17e0-26f2-4b95-bbe3-b12200ea6699
+5,Charmeleon,Fire,,"['Blaze';'Solar Power']",58,64,58,80,65,80,1.0,1.0,0.5,2.0,1.0,0.5,0.5,1.0,1.0,2.0,1.0,1.0,0.5,2.0,1.0,1.0,1.0,0.5,0.5,1.1,19.0,15.7,b322325a-26c5-419d-95f7-b12200ea669a
+6,Charizard,Fire,Flying,"['Blaze';'Solar Power']",78,84,78,109,85,100,1.0,1.0,0.5,2.0,2.0,0.25,1.0,0.5,1.0,0.0,1.0,1.0,0.25,4.0,1.0,1.0,1.0,0.5,0.5,1.7,90.5,31.3,fd35c97a-43ab-440e-bea3-b12200ea669a
+6,Mega Charizard Y,Fire,Flying,['Drought'],78,104,78,159,115,100,6.0,1.0,0.5,2.0,2.0,0.25,1.0,0.5,1.0,0.0,1.0,1.0,0.25,4.0,1.0,1.0,1.0,0.5,0.5,1.7,100.5,34.8,200555d1-e80e-4edf-b652-b12200ea669a
+6,Mega Charizard X,Fire,Dragon,['Tough Claws'],78,130,111,130,85,100,6.0,1.0,0.25,1.0,0.5,0.25,1.0,1.0,1.0,2.0,1.0,1.0,0.5,2.0,1.0,2.0,1.0,0.5,1.0,1.7,110.5,38.2,8204b6e3-ba90-48e3-8853-b12200ea669b
+7,Squirtle,Water,,"['Rain Dish';'Torrent']",44,48,65,50,64,43,1.0,1.0,0.5,0.5,2.0,2.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.5,1.0,0.5,9.0,36.0,e3ddc649-f22b-4559-9044-b12200ea669b
+8,Wartortle,Water,,"['Rain Dish';'Torrent']",59,63,80,65,80,58,1.0,1.0,0.5,0.5,2.0,2.0,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.5,1.0,1.0,22.5,22.5,558647ee-2d15-4e34-a7b8-b12200ea669b
+Hello World0 !,b058ca29-0e91-45ee-a641-b12200ecfeef
+Hello World1 !,6aee5886-c87b-4514-b146-b12200ecff06
+Hello World2 !,81a572fb-86e2-415e-8e4b-b12200ecff07
+Hello World3 !,ea1e3981-cb4b-4637-a226-b12200ecff07
+Hello World4 !,be8859cf-11d5-43e4-be33-b12200ecff08
+Hello World5 !,accac229-b718-429d-8edb-b12200ecff08
+Hello World6 !,cee2546d-8650-4b6d-960d-b12200ecff08
+Hello World7 !,15f0682a-b034-474f-95ca-b12200ecff09
+Hello World8 !,c658ce2d-d7a0-48ae-a56f-b12200ecff09
+Hello World9 !,b8effd1f-9443-4ff8-a7ab-b12200ecff09
+Hello World10 !,97dae63d-7c39-450b-ab11-b12200ecff0a
+Hello World1 !,66d3acac-2f3f-40f7-a856-b12200eebfb1
+Hello World7 !,cf812ae7-41cc-4ee8-924c-b12200eebfb3
+Hello World10 !,79f96ad9-88d8-4885-a037-b12200eebfb5
+Hello World0 !,22aa4536-00d3-413e-bb6b-b12200f01dd6
+Hello World1 !,4c318111-915e-44d8-87d6-b12200f01df0
+Hello World2 !,b39d03b9-7431-464e-9f88-b12200f01df1
+Hello World3 !,999d9008-0dcd-4770-9870-b12200f01df1
+Hello World4 !,992309db-62f1-4550-aeef-b12200f01df2
+Hello World5 !,38643613-3dc1-4f54-b0c4-b12200f01df2
+Hello World6 !,147955b4-9012-476f-aa99-b12200f01df3
+Hello World7 !,a682285a-e058-4870-ac19-b12200f01df3
+Hello World8 !,aeeac31f-4aab-4d84-bef4-b12200f01df3
+Hello World9 !,18254ac8-1fcb-4359-80eb-b12200f01df4
+Hello World10 !,716f6591-a8bd-436b-a024-b12200f01df4
