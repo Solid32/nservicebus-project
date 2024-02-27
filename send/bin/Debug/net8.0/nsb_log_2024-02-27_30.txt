@@ -267,3 +267,153 @@
 2024-02-27 16:36:58.385 INFO  No valid license could be found. Falling back to trial license with start date '2024-02-20'.
 2024-02-27 16:37:03.528 INFO  Logging to '/home/chinzi/code/Solid32/nservicebus-project/send/bin/Debug/net8.0/' with level Info
 2024-02-27 16:37:03.628 INFO  No valid license could be found. Falling back to trial license with start date '2024-02-20'.
+2024-02-27 16:46:30.807 INFO  Logging to '/home/chinzi/code/Solid32/nservicebus-project/send/bin/Debug/net8.0/' with level Info
+2024-02-27 16:46:30.907 INFO  No valid license could be found. Falling back to trial license with start date '2024-02-20'.
+2024-02-27 16:48:12.129 WARN  'NSMQProcess Publish' connection shutdown: AMQP close-reason, initiated by Peer, code=320, text='CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'', classId=0, methodId=0
+2024-02-27 16:48:12.130 WARN  'NSMQProcess MessagePump' connection shutdown: AMQP close-reason, initiated by Peer, code=320, text='CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'', classId=0, methodId=0
+2024-02-27 16:48:12.131 WARN  The circuit breaker for 'NSMQProcess MessagePump' is now in the armed state
+2024-02-27 16:48:12.132 WARN  'NSMQProcess MessagePump' channel shutdown while reconnect already in progress: AMQP close-reason, initiated by Peer, code=320, text='CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'', classId=0, methodId=0
+2024-02-27 16:48:12.134 INFO  'NSMQProcess MessagePump': Attempting to reconnect in 10 seconds.
+2024-02-27 16:48:12.134 INFO  'NSMQProcess Publish': Attempting to reconnect in 10 seconds.
+2024-02-27 16:48:22.175 INFO  'NSMQProcess MessagePump': Reconnecting to the broker failed: RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable
+ ---> System.AggregateException: One or more errors occurred. (Connection failed)
+ ---> RabbitMQ.Client.Exceptions.ConnectFailureException: Connection failed
+ ---> System.Net.Sockets.SocketException (111): Connection refused
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at RabbitMQ.Client.TcpClientAdapter.ConnectAsync(String host, Int32 port)
+   at RabbitMQ.Client.Impl.TaskExtensions.TimeoutAfter(Task task, TimeSpan timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectOrFail(ITcpClient socket, AmqpTcpEndpoint endpoint, TimeSpan timeout)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectOrFail(ITcpClient socket, AmqpTcpEndpoint endpoint, TimeSpan timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingAddressFamily(AmqpTcpEndpoint endpoint, Func`2 socketFactory, TimeSpan timeout, AddressFamily family)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingIPv4(AmqpTcpEndpoint endpoint, Func`2 socketFactory, TimeSpan timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler..ctor(AmqpTcpEndpoint endpoint, Func`2 socketFactory, TimeSpan connectionTimeout, TimeSpan readTimeout, TimeSpan writeTimeout)
+   at RabbitMQ.Client.Framing.Impl.IProtocolExtensions.CreateFrameHandler(IProtocol protocol, AmqpTcpEndpoint endpoint, ArrayPool`1 pool, Func`2 socketFactory, TimeSpan connectionTimeout, TimeSpan readTimeout, TimeSpan writeTimeout)
+   at RabbitMQ.Client.ConnectionFactory.CreateFrameHandler(AmqpTcpEndpoint endpoint)
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IEndpointResolver endpoints)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(String clientProvidedName)
+   at NServiceBus.Transport.RabbitMQ.ConnectionFactory.CreateConnection(String connectionName, Boolean automaticRecoveryEnabled) in /_/src/NServiceBus.Transport.RabbitMQ/Connection/ConnectionFactory.cs:line 92
+   at NServiceBus.Transport.RabbitMQ.MessagePump.ConnectToBroker() in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 95
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Reconnect() in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 235
+2024-02-27 16:48:22.175 INFO  'NSMQProcess Publish': Reconnecting to the broker failed: RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable
+ ---> System.AggregateException: One or more errors occurred. (Connection failed)
+ ---> RabbitMQ.Client.Exceptions.ConnectFailureException: Connection failed
+ ---> System.Net.Sockets.SocketException (111): Connection refused
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at RabbitMQ.Client.TcpClientAdapter.ConnectAsync(String host, Int32 port)
+   at RabbitMQ.Client.Impl.TaskExtensions.TimeoutAfter(Task task, TimeSpan timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectOrFail(ITcpClient socket, AmqpTcpEndpoint endpoint, TimeSpan timeout)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectOrFail(ITcpClient socket, AmqpTcpEndpoint endpoint, TimeSpan timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingAddressFamily(AmqpTcpEndpoint endpoint, Func`2 socketFactory, TimeSpan timeout, AddressFamily family)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingIPv4(AmqpTcpEndpoint endpoint, Func`2 socketFactory, TimeSpan timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler..ctor(AmqpTcpEndpoint endpoint, Func`2 socketFactory, TimeSpan connectionTimeout, TimeSpan readTimeout, TimeSpan writeTimeout)
+   at RabbitMQ.Client.Framing.Impl.IProtocolExtensions.CreateFrameHandler(IProtocol protocol, AmqpTcpEndpoint endpoint, ArrayPool`1 pool, Func`2 socketFactory, TimeSpan connectionTimeout, TimeSpan readTimeout, TimeSpan writeTimeout)
+   at RabbitMQ.Client.ConnectionFactory.CreateFrameHandler(AmqpTcpEndpoint endpoint)
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(String clientProvidedName)
+   at NServiceBus.Transport.RabbitMQ.ConnectionFactory.CreateConnection(String connectionName, Boolean automaticRecoveryEnabled) in /_/src/NServiceBus.Transport.RabbitMQ/Connection/ConnectionFactory.cs:line 92
+   at NServiceBus.Transport.RabbitMQ.ConnectionFactory.CreatePublishConnection() in /_/src/NServiceBus.Transport.RabbitMQ/Connection/ConnectionFactory.cs:line 81
+   at NServiceBus.Transport.RabbitMQ.ChannelProvider.CreateConnection() in /_/src/NServiceBus.Transport.RabbitMQ/Connection/ChannelProvider.cs:line 23
+   at NServiceBus.Transport.RabbitMQ.ChannelProvider.Reconnect(String connectionName) in /_/src/NServiceBus.Transport.RabbitMQ/Connection/ChannelProvider.cs:line 49
+2024-02-27 16:48:22.175 INFO  'NSMQProcess MessagePump': Attempting to reconnect in 10 seconds.
+2024-02-27 16:48:22.175 INFO  'NSMQProcess Publish': Attempting to reconnect in 10 seconds.
+2024-02-27 16:48:32.177 INFO  'NSMQProcess MessagePump': Reconnecting to the broker failed: RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable
+ ---> System.AggregateException: One or more errors occurred. (Connection failed)
+ ---> RabbitMQ.Client.Exceptions.ConnectFailureException: Connection failed
+ ---> System.Net.Sockets.SocketException (111): Connection refused
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at RabbitMQ.Client.TcpClientAdapter.ConnectAsync(String host, Int32 port)
+   at RabbitMQ.Client.Impl.TaskExtensions.TimeoutAfter(Task task, TimeSpan timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectOrFail(ITcpClient socket, AmqpTcpEndpoint endpoint, TimeSpan timeout)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectOrFail(ITcpClient socket, AmqpTcpEndpoint endpoint, TimeSpan timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingAddressFamily(AmqpTcpEndpoint endpoint, Func`2 socketFactory, TimeSpan timeout, AddressFamily family)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingIPv4(AmqpTcpEndpoint endpoint, Func`2 socketFactory, TimeSpan timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler..ctor(AmqpTcpEndpoint endpoint, Func`2 socketFactory, TimeSpan connectionTimeout, TimeSpan readTimeout, TimeSpan writeTimeout)
+   at RabbitMQ.Client.Framing.Impl.IProtocolExtensions.CreateFrameHandler(IProtocol protocol, AmqpTcpEndpoint endpoint, ArrayPool`1 pool, Func`2 socketFactory, TimeSpan connectionTimeout, TimeSpan readTimeout, TimeSpan writeTimeout)
+   at RabbitMQ.Client.ConnectionFactory.CreateFrameHandler(AmqpTcpEndpoint endpoint)
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IEndpointResolver endpoints)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(String clientProvidedName)
+   at NServiceBus.Transport.RabbitMQ.ConnectionFactory.CreateConnection(String connectionName, Boolean automaticRecoveryEnabled) in /_/src/NServiceBus.Transport.RabbitMQ/Connection/ConnectionFactory.cs:line 92
+   at NServiceBus.Transport.RabbitMQ.MessagePump.ConnectToBroker() in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 95
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Reconnect() in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 235
+2024-02-27 16:48:32.177 INFO  'NSMQProcess MessagePump': Attempting to reconnect in 10 seconds.
+2024-02-27 16:48:32.178 INFO  'NSMQProcess Publish': Reconnecting to the broker failed: RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable
+ ---> System.AggregateException: One or more errors occurred. (Connection failed)
+ ---> RabbitMQ.Client.Exceptions.ConnectFailureException: Connection failed
+ ---> System.Net.Sockets.SocketException (111): Connection refused
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at RabbitMQ.Client.TcpClientAdapter.ConnectAsync(String host, Int32 port)
+   at RabbitMQ.Client.Impl.TaskExtensions.TimeoutAfter(Task task, TimeSpan timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectOrFail(ITcpClient socket, AmqpTcpEndpoint endpoint, TimeSpan timeout)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectOrFail(ITcpClient socket, AmqpTcpEndpoint endpoint, TimeSpan timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingAddressFamily(AmqpTcpEndpoint endpoint, Func`2 socketFactory, TimeSpan timeout, AddressFamily family)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingIPv4(AmqpTcpEndpoint endpoint, Func`2 socketFactory, TimeSpan timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler..ctor(AmqpTcpEndpoint endpoint, Func`2 socketFactory, TimeSpan connectionTimeout, TimeSpan readTimeout, TimeSpan writeTimeout)
+   at RabbitMQ.Client.Framing.Impl.IProtocolExtensions.CreateFrameHandler(IProtocol protocol, AmqpTcpEndpoint endpoint, ArrayPool`1 pool, Func`2 socketFactory, TimeSpan connectionTimeout, TimeSpan readTimeout, TimeSpan writeTimeout)
+   at RabbitMQ.Client.ConnectionFactory.CreateFrameHandler(AmqpTcpEndpoint endpoint)
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(String clientProvidedName)
+   at NServiceBus.Transport.RabbitMQ.ConnectionFactory.CreateConnection(String connectionName, Boolean automaticRecoveryEnabled) in /_/src/NServiceBus.Transport.RabbitMQ/Connection/ConnectionFactory.cs:line 92
+   at NServiceBus.Transport.RabbitMQ.ConnectionFactory.CreatePublishConnection() in /_/src/NServiceBus.Transport.RabbitMQ/Connection/ConnectionFactory.cs:line 81
+   at NServiceBus.Transport.RabbitMQ.ChannelProvider.CreateConnection() in /_/src/NServiceBus.Transport.RabbitMQ/Connection/ChannelProvider.cs:line 23
+   at NServiceBus.Transport.RabbitMQ.ChannelProvider.Reconnect(String connectionName) in /_/src/NServiceBus.Transport.RabbitMQ/Connection/ChannelProvider.cs:line 49
+2024-02-27 16:48:32.178 INFO  'NSMQProcess Publish': Attempting to reconnect in 10 seconds.
+2024-02-27 17:06:02.514 INFO  Logging to '/home/chinzi/code/Solid32/nservicebus-project/send/bin/Debug/net8.0/' with level Info
+2024-02-27 17:06:02.609 INFO  No valid license could be found. Falling back to trial license with start date '2024-02-20'.
+2024-02-27 17:08:49.318 INFO  Logging to '/home/chinzi/code/Solid32/nservicebus-project/send/bin/Debug/net8.0/' with level Info
+2024-02-27 17:08:49.416 INFO  No valid license could be found. Falling back to trial license with start date '2024-02-20'.
+2024-02-27 17:13:50.075 INFO  Logging to '/home/chinzi/code/Solid32/nservicebus-project/send/bin/Debug/net8.0/' with level Info
+2024-02-27 17:13:50.171 INFO  No valid license could be found. Falling back to trial license with start date '2024-02-20'.
+2024-02-27 17:17:42.978 INFO  Logging to '/home/chinzi/code/Solid32/nservicebus-project/send/bin/Debug/net8.0/' with level Info
+2024-02-27 17:17:43.075 INFO  No valid license could be found. Falling back to trial license with start date '2024-02-20'.
+2024-02-27 17:21:41.051 INFO  Logging to '/home/chinzi/code/Solid32/nservicebus-project/send/bin/Debug/net8.0/' with level Info
+2024-02-27 17:21:41.150 INFO  No valid license could be found. Falling back to trial license with start date '2024-02-20'.
+2024-02-27 17:26:32.567 INFO  Logging to '/home/chinzi/code/Solid32/nservicebus-project/send/bin/Debug/net8.0/' with level Info
+2024-02-27 17:26:32.663 INFO  No valid license could be found. Falling back to trial license with start date '2024-02-20'.
+2024-02-27 17:28:58.724 INFO  Logging to '/home/chinzi/code/Solid32/nservicebus-project/send/bin/Debug/net8.0/' with level Info
+2024-02-27 17:28:58.826 INFO  No valid license could be found. Falling back to trial license with start date '2024-02-20'.
+2024-02-27 17:34:03.515 INFO  Logging to '/home/chinzi/code/Solid32/nservicebus-project/send/bin/Debug/net8.0/' with level Info
+2024-02-27 17:34:03.611 INFO  No valid license could be found. Falling back to trial license with start date '2024-02-20'.
+2024-02-27 17:40:34.060 INFO  Logging to '/home/chinzi/code/Solid32/nservicebus-project/send/bin/Debug/net8.0/' with level Info
+2024-02-27 17:40:34.156 INFO  No valid license could be found. Falling back to trial license with start date '2024-02-20'.
+2024-02-27 17:43:09.692 INFO  Logging to '/home/chinzi/code/Solid32/nservicebus-project/send/bin/Debug/net8.0/' with level Info
+2024-02-27 17:43:09.793 INFO  No valid license could be found. Falling back to trial license with start date '2024-02-20'.
+2024-02-27 17:43:22.195 INFO  Logging to '/home/chinzi/code/Solid32/nservicebus-project/send/bin/Debug/net8.0/' with level Info
+2024-02-27 17:43:22.291 INFO  No valid license could be found. Falling back to trial license with start date '2024-02-20'.

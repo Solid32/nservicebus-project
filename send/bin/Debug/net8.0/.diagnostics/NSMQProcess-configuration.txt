@@ -2132,7 +2132,7 @@
       "MajorRevision": -1,
       "MinorRevision": -1
     },
-    "WorkingSet": 68595712,
+    "WorkingSet": 68841472,
     "SystemPageSize": 4096,
     "HostName": "chinzi-Latitude-5510",
     "UserName": "chinzi",

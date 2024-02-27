@@ -1,16 +1,18 @@
 using NServiceBus;
+using System;
 public class MyMessageHandler : IHandleMessages<MyMessage>
 {
     static string file = "error_log.csv";
     static string separator = ",";
 
-    public Task Handle(MyMessage message, IMessageHandlerContext context)
+    static string currentTime = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+     public Task Handle(MyMessage message, IMessageHandlerContext context)
     {
         // Obtenez l'ID du message
         var messageId = context.MessageId;
 
-        string[] newLine = {messageId , message.Data};
-        string lineToWrite = string.Join(separator, newLine) + Environment.NewLine; // Add newline at the end
+        string[] newLine = {messageId , currentTime, message.Data};
+        string lineToWrite = string.Join(separator, newLine) + Environment.NewLine;
 
         try
         {

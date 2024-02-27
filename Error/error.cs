@@ -20,6 +20,6 @@ class Program
 
         Console.ReadLine();
 
-        await endpointInstance.Stop().ConfigureAwait(true);
+        await endpointInstance.Stop().ConfigureAwait(false);
     }
 }
