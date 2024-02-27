@@ -4,7 +4,7 @@ using System.Text.RegularExpressions;
 
 public class MyMessageHandler : IHandleMessages<MyMessage>
 {
-    static string connectionString = "Data Source=test.db;Version=3;";
+    static string connectionString = "Data Source=pokewarehouse.db;Version=3;";
 
     public Task Handle(MyMessage message, IMessageHandlerContext context)
     {

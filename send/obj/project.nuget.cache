@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Z0h68/htFXK9EowmW1sw8HADHoZBJkEmK+EthGeYJ6VerIRuIL06cRsxmNDxSwJbA3Ixn7ctA8vMw1aM1ZwnOA==",
+  "dgSpecHash": "LaC/Mhmhp8qE2vzZxtFrx2e4cnHaF76k/q6ZE6weP9DaSVd4dagHJPBOsFGBBuwVh/pajqVEcVSARUkVRb6QAQ==",
   "success": true,
-  "projectFilePath": "/home/chinzi/code/Solid32/nserbuspoke/send/send.csproj",
+  "projectFilePath": "/home/chinzi/code/Solid32/nservicebus-project/send/send.csproj",
   "expectedPackageFiles": [
     "/home/chinzi/.nuget/packages/bitfaster.caching/2.0.0/bitfaster.caching.2.0.0.nupkg.sha512",
     "/home/chinzi/.nuget/packages/microsoft.aspnetcore.jsonpatch/3.1.21/microsoft.aspnetcore.jsonpatch.3.1.21.nupkg.sha512",

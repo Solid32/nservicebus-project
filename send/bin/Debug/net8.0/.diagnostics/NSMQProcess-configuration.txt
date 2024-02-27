@@ -25,31 +25,31 @@
     "ErrorsThrownDuringScanning": false,
     "SkippedFiles": [
       {
-        "FilePath": "/home/chinzi/code/Solid32/nserbuspoke/send/bin/Debug/net8.0/Newtonsoft.Json.dll",
+        "FilePath": "/home/chinzi/code/Solid32/nservicebus-project/send/bin/Debug/net8.0/Newtonsoft.Json.dll",
         "SkipReason": "File was explicitly excluded from scanning."
       },
       {
-        "FilePath": "/home/chinzi/code/Solid32/nserbuspoke/send/bin/Debug/net8.0/Microsoft.Win32.SystemEvents.dll",
+        "FilePath": "/home/chinzi/code/Solid32/nservicebus-project/send/bin/Debug/net8.0/Microsoft.Win32.SystemEvents.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "/home/chinzi/code/Solid32/nserbuspoke/send/bin/Debug/net8.0/Microsoft.AspNetCore.JsonPatch.dll",
+        "FilePath": "/home/chinzi/code/Solid32/nservicebus-project/send/bin/Debug/net8.0/Microsoft.AspNetCore.JsonPatch.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "/home/chinzi/code/Solid32/nserbuspoke/send/bin/Debug/net8.0/System.Drawing.Common.dll",
+        "FilePath": "/home/chinzi/code/Solid32/nservicebus-project/send/bin/Debug/net8.0/System.Drawing.Common.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "/home/chinzi/code/Solid32/nserbuspoke/send/bin/Debug/net8.0/System.Windows.Extensions.dll",
+        "FilePath": "/home/chinzi/code/Solid32/nservicebus-project/send/bin/Debug/net8.0/System.Windows.Extensions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "/home/chinzi/code/Solid32/nserbuspoke/send/bin/Debug/net8.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll",
+        "FilePath": "/home/chinzi/code/Solid32/nservicebus-project/send/bin/Debug/net8.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "/home/chinzi/code/Solid32/nserbuspoke/send/bin/Debug/net8.0/System.Security.Permissions.dll",
+        "FilePath": "/home/chinzi/code/Solid32/nservicebus-project/send/bin/Debug/net8.0/System.Security.Permissions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
@@ -509,7 +509,7 @@
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "/home/chinzi/code/Solid32/nserbuspoke/send/bin/Debug/net8.0/Microsoft.AspNetCore.JsonPatch.dll",
+        "FilePath": "/home/chinzi/code/Solid32/nservicebus-project/send/bin/Debug/net8.0/Microsoft.AspNetCore.JsonPatch.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
@@ -537,7 +537,7 @@
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "/home/chinzi/code/Solid32/nserbuspoke/send/bin/Debug/net8.0/Newtonsoft.Json.dll",
+        "FilePath": "/home/chinzi/code/Solid32/nservicebus-project/send/bin/Debug/net8.0/Newtonsoft.Json.dll",
         "SkipReason": "File was explicitly excluded from scanning."
       },
       {
@@ -545,7 +545,7 @@
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "/home/chinzi/code/Solid32/nserbuspoke/send/bin/Debug/net8.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll",
+        "FilePath": "/home/chinzi/code/Solid32/nservicebus-project/send/bin/Debug/net8.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
@@ -569,7 +569,7 @@
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "/home/chinzi/code/Solid32/nserbuspoke/send/bin/Debug/net8.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll",
+        "FilePath": "/home/chinzi/code/Solid32/nservicebus-project/send/bin/Debug/net8.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
@@ -585,7 +585,7 @@
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "/home/chinzi/code/Solid32/nserbuspoke/send/bin/Debug/net8.0/System.Windows.Extensions.dll",
+        "FilePath": "/home/chinzi/code/Solid32/nservicebus-project/send/bin/Debug/net8.0/System.Windows.Extensions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
@@ -625,7 +625,7 @@
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "/home/chinzi/code/Solid32/nserbuspoke/send/bin/Debug/net8.0/System.Security.Permissions.dll",
+        "FilePath": "/home/chinzi/code/Solid32/nservicebus-project/send/bin/Debug/net8.0/System.Security.Permissions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
@@ -789,7 +789,7 @@
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "/home/chinzi/code/Solid32/nserbuspoke/send/bin/Debug/net8.0/Microsoft.Win32.SystemEvents.dll",
+        "FilePath": "/home/chinzi/code/Solid32/nservicebus-project/send/bin/Debug/net8.0/Microsoft.Win32.SystemEvents.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
@@ -2115,7 +2115,7 @@
     }
   ],
   "Hosting": {
-    "HostId": "62df3b42-0534-6e4a-a72b-d55b54a90305",
+    "HostId": "14a7b902-eece-4f51-419b-91d25be1a78f",
     "HostDisplayName": "chinzi-Latitude-5510",
     "MachineName": "chinzi-Latitude-5510",
     "OSPlatform": 4,
@@ -2132,11 +2132,11 @@
       "MajorRevision": -1,
       "MinorRevision": -1
     },
-    "WorkingSet": 68546560,
+    "WorkingSet": 68595712,
     "SystemPageSize": 4096,
     "HostName": "chinzi-Latitude-5510",
     "UserName": "chinzi",
-    "PathToExe": "/home/chinzi/code/Solid32/nserbuspoke/send/bin/Debug/net8.0/send.dll"
+    "PathToExe": "/home/chinzi/code/Solid32/nservicebus-project/send/bin/Debug/net8.0/send.dll"
   },
   "Licensing": {
     "RegisteredTo": null,

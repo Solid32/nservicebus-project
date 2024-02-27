@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "07Trnbi4YKmBChLofmlFPruNvIblJRPlUSAqEYi4ktQUQKGhkCVWA9IJlgg0yTZ/gL7EMe+bIEunLSghteyWGg==",
+  "dgSpecHash": "LthTPWbKmf6iOSEH4SHXnhPxR5SQ5xHlX17PLFmyxDks3kl5JeQK+TwXXVz9IJ6IiyU1pCl3+sUaJ8LuD0mzGQ==",
   "success": true,
-  "projectFilePath": "/home/chinzi/code/Solid32/nserbuspoke/receive/receive.csproj",
+  "projectFilePath": "/home/chinzi/code/Solid32/nservicebus-project/receive/receive.csproj",
   "expectedPackageFiles": [
     "/home/chinzi/.nuget/packages/bitfaster.caching/2.0.0/bitfaster.caching.2.0.0.nupkg.sha512",
     "/home/chinzi/.nuget/packages/entityframework/6.4.4/entityframework.6.4.4.nupkg.sha512",

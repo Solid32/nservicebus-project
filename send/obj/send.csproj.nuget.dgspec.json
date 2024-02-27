@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/chinzi/code/Solid32/nserbuspoke/send/send.csproj": {}
+    "/home/chinzi/code/Solid32/nservicebus-project/send/send.csproj": {}
   },
   "projects": {
-    "/home/chinzi/code/Solid32/nserbuspoke/send/send.csproj": {
+    "/home/chinzi/code/Solid32/nservicebus-project/send/send.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/chinzi/code/Solid32/nserbuspoke/send/send.csproj",
+        "projectUniqueName": "/home/chinzi/code/Solid32/nservicebus-project/send/send.csproj",
         "projectName": "send",
-        "projectPath": "/home/chinzi/code/Solid32/nserbuspoke/send/send.csproj",
+        "projectPath": "/home/chinzi/code/Solid32/nservicebus-project/send/send.csproj",
         "packagesPath": "/home/chinzi/.nuget/packages/",
-        "outputPath": "/home/chinzi/code/Solid32/nserbuspoke/send/obj/",
+        "outputPath": "/home/chinzi/code/Solid32/nservicebus-project/send/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/chinzi/code/Solid32/nuget.config",
