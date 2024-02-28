@@ -1,0 +1,24 @@
+﻿2024-02-28 13:20:36.273 INFO  Logging to '/home/chinzi/code/Solid32/nservicebus-project/Error/bin/Debug/net8.0/' with level Info
+2024-02-28 13:20:36.372 INFO  No valid license could be found. Falling back to trial license with start date '2024-02-20'.
+2024-02-28 13:20:36.552 FATAL Receiver Main failed to start.
+RabbitMQ.Client.Exceptions.OperationInterruptedException: The AMQP operation was interrupted: AMQP close-reason, initiated by Peer, code=404, text='NOT_FOUND - no queue 'error' in vhost '/'', classId=60, methodId=20
+   at RabbitMQ.Client.Impl.SimpleBlockingRpcContinuation.GetReply(TimeSpan timeout)
+   at RabbitMQ.Client.Impl.ModelBase.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.Impl.AutorecoveringModel.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.IModelExensions.BasicConsume(IModel model, String queue, Boolean autoAck, String consumerTag, IBasicConsumer consumer)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.ConnectToBroker() in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 124
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Start(PushRuntimeSettings limitations) in /_/src/NServiceBus.Transport.RabbitMQ/Receiving/MessagePump.cs:line 90
+   at NServiceBus.TransportReceiver.Start() in /_/src/NServiceBus.Core/Transports/TransportReceiver.cs:line 140
+   at NServiceBus.ReceiveComponent.Start() in /_/src/NServiceBus.Core/Receiving/ReceiveComponent.cs:line 203
+2024-02-28 13:21:09.752 INFO  Logging to '/home/chinzi/code/Solid32/nservicebus-project/Error/bin/Debug/net8.0/' with level Info
+2024-02-28 13:21:09.852 INFO  No valid license could be found. Falling back to trial license with start date '2024-02-20'.
+2024-02-28 13:23:23.578 INFO  Initiating shutdown.
+2024-02-28 13:23:23.626 INFO  Shutdown complete.
+2024-02-28 13:23:26.520 INFO  Logging to '/home/chinzi/code/Solid32/nservicebus-project/Error/bin/Debug/net8.0/' with level Info
+2024-02-28 13:23:26.624 INFO  No valid license could be found. Falling back to trial license with start date '2024-02-20'.
+2024-02-28 13:31:04.419 WARN  'error MessagePump' connection shutdown: AMQP close-reason, initiated by Peer, code=320, text='CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'', classId=0, methodId=0
+2024-02-28 13:31:04.419 WARN  'error Publish' connection shutdown: AMQP close-reason, initiated by Peer, code=320, text='CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'', classId=0, methodId=0
+2024-02-28 13:31:04.421 WARN  The circuit breaker for 'error MessagePump' is now in the armed state
+2024-02-28 13:31:04.424 INFO  'error Publish': Attempting to reconnect in 10 seconds.
+2024-02-28 13:31:04.424 WARN  'error MessagePump' channel shutdown while reconnect already in progress: AMQP close-reason, initiated by Peer, code=320, text='CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'', classId=0, methodId=0
+2024-02-28 13:31:04.424 INFO  'error MessagePump': Attempting to reconnect in 10 seconds.

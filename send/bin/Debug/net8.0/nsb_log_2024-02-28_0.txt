@@ -1,0 +1,8 @@
+﻿2024-02-28 13:20:57.445 INFO  Logging to '/home/chinzi/code/Solid32/nservicebus-project/send/bin/Debug/net8.0/' with level Info
+2024-02-28 13:20:57.548 INFO  No valid license could be found. Falling back to trial license with start date '2024-02-20'.
+2024-02-28 13:23:40.566 INFO  Logging to '/home/chinzi/code/Solid32/nservicebus-project/send/bin/Debug/net8.0/' with level Info
+2024-02-28 13:23:40.669 INFO  No valid license could be found. Falling back to trial license with start date '2024-02-20'.
+2024-02-28 13:26:14.573 INFO  Logging to '/home/chinzi/code/Solid32/nservicebus-project/send/bin/Debug/net8.0/' with level Info
+2024-02-28 13:26:14.670 INFO  No valid license could be found. Falling back to trial license with start date '2024-02-20'.
+2024-02-28 13:28:35.432 INFO  Logging to '/home/chinzi/code/Solid32/nservicebus-project/send/bin/Debug/net8.0/' with level Info
+2024-02-28 13:28:35.536 INFO  No valid license could be found. Falling back to trial license with start date '2024-02-20'.

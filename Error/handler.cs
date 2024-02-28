@@ -10,8 +10,9 @@ public class MyMessageHandler : IHandleMessages<MyMessage>
     {
         // Obtenez l'ID du message
         var messageId = context.MessageId;
+        var correID = context.MessageHeaders[Headers.CorrelationId];
 
-        string[] newLine = {messageId , currentTime, message.Data};
+        string[] newLine = {messageId , correID , currentTime, message.Data};
         string lineToWrite = string.Join(separator, newLine) + Environment.NewLine;
 
         try

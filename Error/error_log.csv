@@ -1,7 +1,6 @@
-ID,Heure ,Message
-cb184699-c48b-466d-843d-b1230113885f,2024-02-27 17:44:28,Sdf,Totodile,typeNone,,"Kill, Keen Eye ",45#,,,true ,,false ,,None ,… ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-14c74800-f289-4bbc-b112-b1230113886e,2024-02-27 17:44:28,Oo,Charmandizard,true,,De26-a90c-d781-bca6_,,,,,,54,,,,,,,,56,,"0,2",88,,,#8,,,,,,,,,,@99,,,,,,,,,toto
-72c68ba2-7477-494d-8a4d-b123011388c1,2024-02-27 17:44:28,çàç_,UndefinedLoop_,BugNull,,Tom’s Dinner ,1,2,3,4,5,6,4,55.,898989,,NaN,,,,,,,,,,,,,,,,,,,,,,,,,,false,false,false
-5f740b27-abad-47b5-8d0b-b123011395eb,2024-02-27 17:44:28,Sdf,Totodile,typeNone,,"Kill, Keen Eye ",45#,,,true ,,false ,,None ,… ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-686269f0-9199-42ff-b54c-b123011395fa,2024-02-27 17:44:28,Oo,Charmandizard,true,,De26-a90c-d781-bca6_,,,,,,54,,,,,,,,56,,"0,2",88,,,#8,,,,,,,,,,@99,,,,,,,,,toto
-f756faeb-c946-4735-9947-b12301139646,2024-02-27 17:44:28,çàç_,UndefinedLoop_,BugNull,,Tom’s Dinner ,1,2,3,4,5,6,4,55.,898989,,NaN,,,,,,,,,,,,,,,,,,,,,,,,,,false,false,false
+MessageId,CorrelationId,Time,Message,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+6321d3eb-2f33-4917-8cc9-b12400ccf745,6321d3eb-2f33-4917-8cc9-b12400ccf745,2024-02-28 13:24:47,Sdf,Totodile,typeNone,,"Kill, Keen Eye ",45#,,,true ,,false ,,None ,… ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+4fda9d0d-1c5a-4196-b3d6-b12400ccf7a7,4fda9d0d-1c5a-4196-b3d6-b12400ccf7a7,2024-02-28 13:24:47,çàç_,UndefinedLoop_,BugNull,,Tom’s Dinner ,1,2,3,4,5,6,4,55.,898989,,NaN,,,,,,,,,,,,,,,,,,,,,,,,,,false,false,false
+33a29068-4e7c-48df-b0b1-b12400cd9d04,33a29068-4e7c-48df-b0b1-b12400cd9d04,2024-02-28 13:24:47,Sdf,Totodile,typeNone,,"Kill, Keen Eye ",45#,,,true ,,false ,,None ,… ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ebfd7b2f-b509-4013-bcb6-b12400cd9d14,ebfd7b2f-b509-4013-bcb6-b12400cd9d14,2024-02-28 13:24:47,Oo,Charmandizard,true,,De26-a90c-d781-bca6_,,,,,,54,,,,,,,,56,,"0,2",88,,,#8,,,,,,,,,,@99,,,,,,,,,toto
+552283d3-f28c-4d31-9da6-b12400cd9d65,552283d3-f28c-4d31-9da6-b12400cd9d65,2024-02-28 13:24:47,çàç_,UndefinedLoop_,BugNull,,Tom’s Dinner ,1,2,3,4,5,6,4,55.,898989,,NaN,,,,,,,,,,,,,,,,,,,,,,,,,,false,false,false
